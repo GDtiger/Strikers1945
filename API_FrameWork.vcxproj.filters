@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="gameNode">
+      <UniqueIdentifier>{2a0be0e6-62fd-43de-a606-55b511847593}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="singleton">
+      <UniqueIdentifier>{87bf2d5b-3654-459b-adb0-5178817b9f2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame">
+      <UniqueIdentifier>{f28c5d41-82f0-4ccf-9c33-7c155409d006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{77fc1430-c839-4247-ae8d-f85644be1aa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UTIL">
+      <UniqueIdentifier>{693a5e0e-cac8-4d85-bbd8-7c6f50294b06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="image">
+      <UniqueIdentifier>{f246c95e-8530-4564-a361-9e48ca56eb83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="타이머">
+      <UniqueIdentifier>{153e0e81-aff6-49db-8d0b-f53ec02a7782}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="프로그래스바">
+      <UniqueIdentifier>{5a2a6f49-9af9-45ce-a35f-aa13aa88d69e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="텍스트데이터">
+      <UniqueIdentifier>{96973ece-e8a2-422b-a9b8-1f58af1713f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\Unit">
+      <UniqueIdentifier>{c1a262e4-6b73-4d14-bc68-ac2eedba73e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effect">
+      <UniqueIdentifier>{1befa71a-4680-487a-bb51-4e60a2b26731}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="API_FrameWork.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.h">
+      <Filter>singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>gameNode</Filter>
+    </ClInclude>
+    <ClInclude Include="mainGame.h">
+      <Filter>mainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>UTIL</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>image</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>타이머</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="progressBar.h">
+      <Filter>프로그래스바</Filter>
+    </ClInclude>
+    <ClInclude Include="txtData.h">
+      <Filter>텍스트데이터</Filter>
+    </ClInclude>
+    <ClInclude Include="Project1945\UIManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Project1945\Bullet1945.h">
+      <Filter>mainGame\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Project1945\Item1945.h">
+      <Filter>mainGame\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Project1945\Player1945.h">
+      <Filter>mainGame\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Project1945\Enemy1945.h">
+      <Filter>mainGame\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Project1945\UnitManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Project1945\Enemy1945_2.h">
+      <Filter>mainGame\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Project1945\Enemy.h">
+      <Filter>mainGame\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Project1945\Boss.h">
+      <Filter>mainGame\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Project1945\BulletBoss.h">
+      <Filter>mainGame\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Project1945\Enemy1945_3.h">
+      <Filter>mainGame\Unit</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="API_FrameWork.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>gameNode</Filter>
+    </ClCompile>
+    <ClCompile Include="mainGame.cpp">
+      <Filter>mainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>UTIL</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>image</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>타이머</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="progressBar.cpp">
+      <Filter>프로그래스바</Filter>
+    </ClCompile>
+    <ClCompile Include="txtData.cpp">
+      <Filter>텍스트데이터</Filter>
+    </ClCompile>
+    <ClCompile Include="Project1945\UIManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Project1945\Bullet1945.cpp">
+      <Filter>mainGame\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Project1945\Item1945.cpp">
+      <Filter>mainGame\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Project1945\Player1945.cpp">
+      <Filter>mainGame\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Project1945\Enemy1945.cpp">
+      <Filter>mainGame\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Project1945\UnitManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Project1945\Enemy1945_2.cpp">
+      <Filter>mainGame\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Project1945\Enemy.cpp">
+      <Filter>mainGame\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Project1945\Boss.cpp">
+      <Filter>mainGame\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Project1945\BulletBoss.cpp">
+      <Filter>mainGame\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Project1945\Enemy1945_3.cpp">
+      <Filter>mainGame\Unit</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="API_FrameWork.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="API_FrameWork.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
